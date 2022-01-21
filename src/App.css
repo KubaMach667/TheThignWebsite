@@ -1,38 +1,74 @@
-.App {
+
+.app{
+ margin: auto;
+ font-family: "Times New Roman", Times, serif;
+ width: 80%;
+}
+.container{
+  margin: 0; padding: 0;
+}
+.header{
+  font-size:12.5rem;
+  text-align: center;
+  letter-spacing: 15px;
+  color: black;
+  display: inline-block;
+  font-weight: 50;
+  display: flex;
+  justify-content: center;
+}
+.subheader{
+  font-size: 4rem;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.router{
+ color: black;
+ text-decoration: none;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ max-width: 50%;
+ margin: auto;
+ font-size: 4rem;
+ margin-top: 1rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 96%;
+  margin-left: 2%;
+  border-top: solid 1px;
+  text-align: left;
+  text-decoration: none!important;
   }
+.langSwitch{
+margin-top: 1rem;
+font-size: 1.5rem;
+}
+.image{
+  width: 70%;
+  margin-top: 1vmax;
+}
+.Contact{
+  text-align: center;
+  margin-top: 7.5vmax;
+  font-size: 1.75vmax;
+}
+.Topster{
+  width: 70%;
+  margin-left: 15%;
+}
+.TopsterText{
+  width: 70%;
+  margin-left: 15%;
+  font-size: 1.125rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 800px) {
+ .header {
+  font-size:5.5rem;
   }
 }
