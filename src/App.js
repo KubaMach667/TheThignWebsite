@@ -35,7 +35,7 @@ export default function App() {
         <Routes>
           <Route exact path="/music"  element={<Music language={language}/>}>
           </Route>
-          <Route  exact path="/shows" element={<Shows/>}>
+          <Route  exact path="/shows" element={<Shows language={language}/>}>
           </Route>
           <Route  exact path="/inspirations" element={<Inspirations language={language}/>}>
           </Route>
