@@ -45,7 +45,7 @@ export default function Music({language}) {
        of well-rehearsed and thought-out music, than playing for 
        100 minutes with 40 minutes of the show being extreme mediocrity at best.</div> }
 
-       {language=="english" && <div>  Oczywiście nie jest to całość muzyki napisanej tego zespołu, ale nigdy nie będę czuć się komfortowo z graniem ekstremalnie surowych wersji utworów. Wolę grać 60 minut dobrze przećwiczonej oraz przemyślanej muzyki, niż 
+       {language=="english" && <div>  Oczywiście nie jest to całość muzyki napisanej dla tego zespołu, ale nigdy nie będę czuć się komfortowo z graniem ekstremalnie surowych wersji utworów. Wolę grać 60 minut dobrze przećwiczonej oraz przemyślanej muzyki, niż 
       grać przez 100 minut z 40toma minutami będącymi w najlepszym wypadku przeciętnymi  </div> }
      
 
