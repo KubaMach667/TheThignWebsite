@@ -30,7 +30,7 @@ export default function Music({language}) {
       {language=="polski" && <div>   I also have a song that's about 30 minutes in length in my 
       head that starts to unravel, but it might take me another 6 
       months to fully grasp the structure and the sound of it. 
-      Then, it might get dropped if I find it boring.</div> }
+      Then, it might get dropped put aside if I find it boring.</div> }
      
       {language=="english" && <div> Z tyłu głowy mam utwór, który trwa około 30 minut, ale jego obraz dopiero mi się odsłania
         . Możliwe, że uchwycenie tego utworu zajmie mi kolejne 6 miesięcy. Wtedy, nie zdziwiłbym się jeżeli porzuciłbym go przez uznanie go za nudny.</div> }
